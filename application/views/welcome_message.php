@@ -9,7 +9,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 	<?php $this->load->view('partial/header')?>
 <div class="slider-main h-800x h-sm-auto pos-relative pt-95 pb-25">
-        <div class="img-bg bg-1 bg-layer-4"></div>
+        <div class="img-bg  bg-layer-4">
+            <img src="<?php echo base_url('assets/') ?>images/unduhan.png" alt="" width="500" height="800">
+        </div>
         <div class="container-fluid h-100 mt-xs-50">
         
             <div class="row h-100">
@@ -19,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="dplay-tbl-cell color-white mtb-30">
                             <div class="mx-w-400x">
                                 <h5><b>ART</b></h5>
-                                <h1 class="mt-20 mb-30"><b>The Shoddy Science Behind most Pregnancy Advice</b></h1>
+                                <h1 class="mt-20 mb-30"><b></b></h1>
                                 <h6><a class="plr-20 btn-brdr-grey color-white" href="#"><b>Continue Reading</b></a></h6>
                             </div><!-- mx-w-200x -->
                         </div><!-- dplay-tbl-cell -->
