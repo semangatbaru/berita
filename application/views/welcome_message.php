@@ -1,6 +1,4 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	 <?php $this->load->view('partial/head')?>
@@ -8,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 	<?php $this->load->view('partial/header')?>
-<div class="slider-main h-800x h-sm-auto pos-relative pt-95 pb-25">
+    <div class="slider-main h-800x h-sm-auto pos-relative pt-95 pb-25">
         <div class="img-bg  bg-layer-4">
             <img src="<?php echo base_url('assets/') ?>images/unduh.jpg" alt="" width="500" height="800">
         </div>
@@ -164,7 +162,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                 <div class="dplay-tbl-cell">
                                                 
                                                     <h5 class="color-ash"><b><?php echo $wa['id_kategori'] ?></b></h5>
-                                                    <h2 class="mtb-10"><a href="#">
+                                                    <h2 class="mtb-10"><a href="<?php echo base_url('Welcome/detail/'.$wa['id_berita']) ?>">
+
                                                         <b><?php echo $wa['judul'] ?></b></a></h2>
                                                     <ul class="list-li-mr-10 color-lt-black">
                                                         <li><i class="mr-5 font-12 ion-android-favorite-outline"></i>15</li>

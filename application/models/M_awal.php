@@ -12,4 +12,12 @@ class M_awal extends CI_Model{
         return $this->db->get('berita');
     }
 
+    function detail($id_berita)
+        {
+                $this->db->select('*');
+                $this->db->where('id_berita', $id_berita);
+                $query = $this->db->get('berita');
+                return $query->result();
+        }
+
 }

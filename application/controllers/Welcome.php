@@ -32,4 +32,23 @@ class Welcome extends CI_Controller {
 		$data['berita'] = $this->M_awal->ambil_data()->result_array();
 		$this->load->view('welcome_message', $data);
 	}
+
+	public function detail($id_berita=''){
+		//write this way so that you can call the url like
+		//localhost/norwin/list_group/get_product_by_group
+	    if($id_berita)//no need to check uri->segment
+	    {
+	            $this->load->database();                    
+	            $data['berita'] = $this->M_awal->detail($id_berita);
+	            $this->load->view('detail', $data);
+
+	    }
+	    else
+	    {
+	            redirect('');
+	    }
+	
+
+
+	}
 }
