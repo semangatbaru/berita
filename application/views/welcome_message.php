@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<?php $this->load->view('partial/header')?>
 <div class="slider-main h-800x h-sm-auto pos-relative pt-95 pb-25">
         <div class="img-bg  bg-layer-4">
-            <img src="<?php echo base_url('assets/') ?>images/unduhan.png" alt="" width="500" height="800">
+            <img src="<?php echo base_url('assets/') ?>images/unduh.jpg" alt="" width="500" height="800">
         </div>
         <div class="container-fluid h-100 mt-xs-50">
         
