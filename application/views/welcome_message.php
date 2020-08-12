@@ -182,7 +182,42 @@
                         <!-- END OF THIRD PARA -->
                     </div><!-- row -->
                     
+                     <h4 class="mb-30 mt-20 clearfix"><b>Ekonomi</b></h4>
                     
+                    <div class="row">
+                        
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 mb-30">
+                        
+                            <!-- SETTING IMAGE WITH bg-4 -->
+                            <div class="card h-100 pos-relative bg-4 bg-layer-4 color-white">
+                                <div class="plr-25 ptb-15">
+                                    <h5 class="color-grey"><b>ART</b></h5>
+                                    <h4 class="mtb-10"><a href="#"><b>I Got off Addrall and Xanax Using Psilocybon</b></a></h4>
+                                    <ul class="list-li-mr-10 color-grey">
+                                        <li><i class="mr-5 font-12 ion-android-favorite-outline"></i>15</li>
+                                        <li><i class="mr-5 font-12 ion-ios-chatbubble-outline"></i>105</li>
+                                    </ul>
+                                </div><!-- hot-news -->
+                            </div><!-- card -->
+                        </div><!-- col-lg-4 col-md-6 -->
+                        
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 mb-30">
+                        
+                            <!-- SETTING IMAGE WITH bg-5 -->
+                            <div class="card pos-relative h-100 bg-5 bg-layer-4 color-white">
+                                <div class="plr-25 ptb-15">
+                                    <h5 class="color-grey"><b>ART</b></h5>
+                                    <h4 class="mtb-10"><a href="#"><b>I Got off Addrall and Xanax Using Psilocybon</b></a></h4>
+                                    <ul class="list-li-mr-10 color-grey">
+                                        <li><i class="mr-5 font-12 ion-android-favorite-outline"></i>15</li>
+                                        <li><i class="mr-5 font-12 ion-ios-chatbubble-outline"></i>105</li>
+                                    </ul>
+                                </div><!-- hot-news -->
+                            </div><!-- card -->
+                        </div><!-- col-lg-4 col-md-6 -->
+                    
+                        <!-- END OF THIRD PARA -->
+                    </div><!-- row -->
                     
                 </div><!-- col-sm-9 -->
                 <div class="col-sm-12 col-md-12  mb-30">

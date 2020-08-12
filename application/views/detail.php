@@ -45,9 +45,10 @@
 				                                
 				                                    <!-- SETTING IMAGE WITH bg-2 -->
 				                                    <div class="s-left w-50 w-xs-100 h-100 h-xs-50 pos-relative">
-				                                        
+				                                       
 				                                            <img src="<?php echo base_url('../beritadong/gambar/'.$wa->gambar) ?>" width="64" />
-				                                        
+
+				                                       
 				                                    </div>
 				                                    
 				                                    <div class="s-right w-50 w-xs-100 h-xs-50">
@@ -90,7 +91,17 @@
                 
             </div><!-- row -->
         </div><!-- container -->
-    </div><!-- slider-main -->
+    </div><!-- <style>
+		h1 {
+		background-color: green;
+		}
+		p {
+		background-color: #e0ffff;
+		}
+		div {
+		background-color: rgb(255,0,255);
+		}
+	</style>-main -->
     
     
     
