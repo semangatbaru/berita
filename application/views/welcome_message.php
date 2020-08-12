@@ -204,12 +204,12 @@
                                             <div class="dplay-tbl">
                                                 <div class="dplay-tbl-cell">
                                                 
-                                                    <h5 class="color-ash"><b><?php echo $wa['id_kategori'] ?></b></h5>
+                                                    <h5 class="color-ash"><b><?php echo $wa['nama_kategori'] ?></b></h5>
                                                     <h2 class="mtb-10"><a href="<?php echo base_url('Welcome/detail/'.$wa['id_berita']) ?>">
 
                                                         <b><?php echo $wa['judul'] ?></b></a></h2>
                                                     <ul class="list-li-mr-10 color-lt-black">
-                                                        <li><i class="mr-5 font-12 ion-android-favorite-outline"></i>15</li>
+                                                        <li><i class="mr-5 font-12 ion-android-favorite-outline"></i><?php echo date("d-m-Y", strtotime($wa['tanggal'])) ?></li>
                                                         <li><i class="mr-5 font-12 ion-ios-chatbubble-outline"></i>105</li>
                                                     </ul>
                                                     

@@ -29,7 +29,8 @@ class Welcome extends CI_Controller {
 	
 	public function index()
 	{
-		$data['berita'] = $this->M_awal->ambil_data()->result_array();
+		$data["berita"] = $this->M_awal->ambil_data()->result_array();
+		$data["kategori"] = $this->M_awal->ambil_kategori();
 		$this->load->view('welcome_message', $data);
 	}
 

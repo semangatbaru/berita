@@ -56,7 +56,6 @@
 				                                            <div class="dplay-tbl">
 				                                                <div class="dplay-tbl-cell">
 				                                                
-				                                                    <h5 class="color-ash"><b><?php echo $wa->id_kategori ?></b></h5>
 				                                                    
 
 				                                                        <b><?php echo $wa->judul ?></b></a></h2>
