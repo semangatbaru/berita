@@ -1,5 +1,5 @@
 <header>
-        <a class="logo" href="#"><img src="<?php echo base_url('assets/') ?>images/logo-white.png" alt="Logo"></a>
+        <a class="logo" href="#"><img src="<?php echo base_url('assets/') ?>images/gemasaba.jpeg" alt="Logo" ></a>
         
         <div class="right-area">
             <form class="src-form">

@@ -9,26 +9,41 @@
                     <div class="card h-100">
                         <div class="dplay-tbl">
                             <div class="dplay-tbl-cell">
-                            
-                                <a href="#"> <img src="<?php echo base_url('assets/') ?>images/logo-white.png"></a>
-                                <p class="color-ash mt-25"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                                
+                                <a class="logo" href="#"><img src="<?php echo base_url('assets/') ?>images/gemasaba.jpeg"  width="80px" height="100px"></a>
+                                <p class="color-ash mt-25">Copyright &copy;2020 Created<i aria-hidden="true"></i> by <a href="https://staydev.com" target="_blank">staydev</a></p>
                             </div><!-- dplay-tbl-cell -->
+                            <div class="col-md-4 col-lg-2 mb-30 text-left">
+                                <div class="card h-100">
+                                    <div class="dplay-tbl">
+                                        <div class="dplay-tbl-cell">
+                                            <form class="form-block form-brdr-b mx-w-400x m-auto">
+                                    
+                                    <h3>MEDIA SOSIAL</h3>
+                                    <h5>Ikuti aktifitas kami di</h5>
+                                    <li><a href="https://instagram.com/dpcgemasaba_jbr?igshid=pn55b14mq4xm"><img src="<?php echo base_url('assets/') ?>images/instagram.png"  width="30px" height="30px"></a></li>
+                                    <li><a href="https://mobile.twitter.com/dpcgemasaba_jbr"><img src="<?php echo base_url('assets/') ?>images/twitter.png"  width="30px" height="30px"></a></li>
+                                            
+                                            </form>
+                                        </div><!-- dplay-tbl-cell -->
+                                    </div><!-- dplay-tbl -->
+                                </div><!-- card -->
+                             </div>
                         </div><!-- dplay-tbl -->
+
                     </div><!-- card -->
                 </div><!-- col-lg-4 col-md-6 -->
                 
+
                 <div class="col-md-4 col-lg-2 mb-30">
                     <div class="card h-100">
                         <div class="dplay-tbl">
                             <div class="dplay-tbl-cell">
                             
                                 <ul class="list-a-plr-10">
-                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                                    <li><a href="#"><i class="ion-social-youtube"></i></a></li>
+                                    <h3>MEDIA SOSIAL</h3>
+                                    <h5>Ikuti aktifitas kami di</h5>
+                                    <li><a href="https://instagram.com/dpcgemasaba_jbr?igshid=pn55b14mq4xm"><img src="<?php echo base_url('assets/') ?>images/instagram.png"  width="30px" height="30px"></a></li>
+                                    <li><a href="https://mobile.twitter.com/dpcgemasaba_jbr"><img src="<?php echo base_url('assets/') ?>images/twitter.png"  width="30px" height="30px"></a></li>
                                 </ul>
                                 
                             </div><!-- dplay-tbl-cell -->
@@ -50,6 +65,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                         </div><!-- dplay-tbl -->
                     </div><!-- card -->
                 </div><!-- col-lg-4 col-md-6 -->
+
+                <div class="col-lg-8"></div>
                 
             </div><!-- row -->
         </div><!-- container -->
