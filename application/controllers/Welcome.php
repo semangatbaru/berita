@@ -30,10 +30,63 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$data["berita"] = $this->M_awal->ambil_data()->result_array();
+			
+	
+		
 		$data["kategori"] = $this->M_awal->ambil_kategori();
+		
 		$this->load->view('welcome_message', $data);
 	}
 
+	
+
+	public function Ekonomi()
+	{
+		$data["ekonomi"] = $this->M_awal->ekonomi()->result_array();
+		$data["kategori"] = $this->M_awal->ambil_kategori();
+		$this->load->view('ekonomi', $data);
+	
+	}
+
+	public function Politik()
+	{
+		$data["politik"] = $this->M_awal->politik()->result_array();
+		$data["kategori"] = $this->M_awal->ambil_kategori();
+		$this->load->view('politik', $data);
+	
+	}
+
+	public function Opini()
+	{
+		$data["opini"] = $this->M_awal->opini()->result_array();
+		$data["kategori"] = $this->M_awal->ambil_kategori();
+		$this->load->view('opini', $data);
+	
+	}
+
+	public function Analisa()
+	{
+		$data["analisa"] = $this->M_awal->analisa()->result_array();
+		$data["kategori"] = $this->M_awal->ambil_kategori();
+		$this->load->view('analisa', $data);
+	
+	}
+
+	public function Biografi()
+	{
+		$data["biografi"] = $this->M_awal->biografi()->result_array();
+		$data["kategori"] = $this->M_awal->ambil_kategori();
+		$this->load->view('biografi', $data);
+	
+	}
+
+	public function Keislaman()
+	{
+		$data["keislaman"] = $this->M_awal->keislaman()->result_array();
+		$data["kategori"] = $this->M_awal->ambil_kategori();
+		$this->load->view('keislaman', $data);
+	
+	}
 	public function detail($id_berita=''){
 		//write this way so that you can call the url like
 		//localhost/norwin/list_group/get_product_by_group
@@ -52,4 +105,9 @@ class Welcome extends CI_Controller {
 
 
 	}
+
+
+
+	
+
 }

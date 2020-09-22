@@ -1,73 +1,163 @@
-    <footer class="bg-191 color-ash pt-50 pb-20 text-left center-sm-text">
-        
-        <div class="container-fluid">
-            <div class="row">
-            
-                <div class="col-lg-1"></div>
-                
-                <div class="col-md-4 col-lg-6 mb-30">
-                    <div class="card h-100">
-                        <div class="dplay-tbl">
-                            <div class="dplay-tbl-cell">
-                                <a class="logo" href="#"><img src="<?php echo base_url('assets/') ?>images/gemasaba.jpeg"  width="80px" height="100px"></a>
-                                <p class="color-ash mt-25">Copyright &copy;2020 Created<i aria-hidden="true"></i> by <a href="https://staydev.com" target="_blank">staydev</a></p>
-                            </div><!-- dplay-tbl-cell -->
-                            <div class="col-md-4 col-lg-2 mb-30 text-left">
-                                <div class="card h-100">
-                                    <div class="dplay-tbl">
-                                        <div class="dplay-tbl-cell">
-                                            <form class="form-block form-brdr-b mx-w-400x m-auto">
-                                    
-                                    <h3>MEDIA SOSIAL</h3>
-                                    <h5>Ikuti aktifitas kami di</h5>
-                                    <li><a href="https://instagram.com/dpcgemasaba_jbr?igshid=pn55b14mq4xm"><img src="<?php echo base_url('assets/') ?>images/instagram.png"  width="30px" height="30px"></a></li>
-                                    <li><a href="https://mobile.twitter.com/dpcgemasaba_jbr"><img src="<?php echo base_url('assets/') ?>images/twitter.png"  width="30px" height="30px"></a></li>
-                                            
-                                            </form>
-                                        </div><!-- dplay-tbl-cell -->
-                                    </div><!-- dplay-tbl -->
-                                </div><!-- card -->
-                             </div>
-                        </div><!-- dplay-tbl -->
+<footer>
+		<div class="bg2 p-t-40 p-b-25">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 p-b-20">
+						<div class="size-h-3 flex-s-c">
+							<a href="index.html">
+								<img class="max-s-full" src="<?php echo base_url('assets/') ?>images/icons/logo-02.png" alt="LOGO">
+							</a>
+						</div>
 
-                    </div><!-- card -->
-                </div><!-- col-lg-4 col-md-6 -->
-                
+						<div>
+							<p class="f1-s-1 cl11 p-b-16">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempor magna eget elit efficitur, at accumsan sem placerat. Nulla tellus libero, mattis nec molestie at, facilisis ut turpis. Vestibulum dolor metus, tincidunt eget odio
+							</p>
 
-                <div class="col-md-4 col-lg-2 mb-30">
-                    <div class="card h-100">
-                        <div class="dplay-tbl">
-                            <div class="dplay-tbl-cell">
-                            
-                                <ul class="list-a-plr-10">
-                                    <h3>MEDIA SOSIAL</h3>
-                                    <h5>Ikuti aktifitas kami di</h5>
-                                    <li><a href="https://instagram.com/dpcgemasaba_jbr?igshid=pn55b14mq4xm"><img src="<?php echo base_url('assets/') ?>images/instagram.png"  width="30px" height="30px"></a></li>
-                                    <li><a href="https://mobile.twitter.com/dpcgemasaba_jbr"><img src="<?php echo base_url('assets/') ?>images/twitter.png"  width="30px" height="30px"></a></li>
-                                </ul>
-                                
-                            </div><!-- dplay-tbl-cell -->
-                        </div><!-- dplay-tbl -->
-                    </div><!-- card -->
-                </div><!-- col-lg-4 col-md-6 -->
-                
-                <div class="col-md-4 col-lg-2 mb-30 text-left">
-                    <div class="card h-100">
-                        <div class="dplay-tbl">
-                            <div class="dplay-tbl-cell">
-                                <form class="form-block form-brdr-b mx-w-400x m-auto">
-                        
-                                    <input class="color-white ptb-15 center-sm-text" type="text" placeholder=" Your Email">
-                                    <button class="mt-30 btn-brdr-grey color-ash w-100 text-center" type="submit">SUBSCRIBE</button>
-                                
-                                </form>
-                            </div><!-- dplay-tbl-cell -->
-                        </div><!-- dplay-tbl -->
-                    </div><!-- card -->
-                </div><!-- col-lg-4 col-md-6 -->
+							<p class="f1-s-1 cl11 p-b-16">
+								Any questions? Call us on (+1) 96 716 6879
+							</p>
 
-                <div class="col-lg-8"></div>
-                
-            </div><!-- row -->
-        </div><!-- container -->
-    </footer>
+							<div class="p-t-15">
+								<a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+									<span class="fab fa-facebook-f"></span>
+								</a>
+
+								<a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+									<span class="fab fa-twitter"></span>
+								</a>
+
+								<a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+									<span class="fab fa-pinterest-p"></span>
+								</a>
+
+								<a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+									<span class="fab fa-vimeo-v"></span>
+								</a>
+
+								<a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+									<span class="fab fa-youtube"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-lg-4 p-b-20">
+						<div class="size-h-3 flex-s-c">
+							<h5 class="f1-m-7 cl0">
+								Popular Posts
+							</h5>
+						</div>
+
+						<ul>
+							<li class="flex-wr-sb-s p-b-20">
+								<a href="#" class="size-w-4 wrap-pic-w hov1 trans-03">
+									<img src="<?php echo base_url('assets/') ?>images/popular-post-01.jpg" alt="IMG">
+								</a>
+
+								<div class="size-w-5">
+									<h6 class="p-b-5">
+										<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
+											Donec metus orci, malesuada et lectus vitae
+										</a>
+									</h6>
+
+									<span class="f1-s-3 cl6">
+										Feb 17
+									</span>
+								</div>
+							</li>
+
+							<li class="flex-wr-sb-s p-b-20">
+								<a href="#" class="size-w-4 wrap-pic-w hov1 trans-03">
+									<img src="<?php echo base_url('assets/') ?>images/popular-post-02.jpg" alt="IMG">
+								</a>
+
+								<div class="size-w-5">
+									<h6 class="p-b-5">
+										<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
+											Lorem ipsum dolor sit amet, consectetur
+										</a>
+									</h6>
+
+									<span class="f1-s-3 cl6">
+										Feb 16
+									</span>
+								</div>
+							</li>
+
+							<li class="flex-wr-sb-s p-b-20">
+								<a href="#" class="size-w-4 wrap-pic-w hov1 trans-03">
+									<img src="<?php echo base_url('assets/') ?>images/popular-post-03.jpg" alt="IMG">
+								</a>
+
+								<div class="size-w-5">
+									<h6 class="p-b-5">
+										<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
+											Suspendisse dictum enim quis imperdiet auctor
+										</a>
+									</h6>
+
+									<span class="f1-s-3 cl6">
+										Feb 15
+									</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-sm-6 col-lg-4 p-b-20">
+						<div class="size-h-3 flex-s-c">
+							<h5 class="f1-m-7 cl0">
+								Category
+							</h5>
+						</div>
+
+						<ul class="m-t--12">
+							<li class="how-bor1 p-rl-5 p-tb-10">
+								<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+									Fashion (22)
+								</a>
+							</li>
+
+							<li class="how-bor1 p-rl-5 p-tb-10">
+								<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+									Technology (29)
+								</a>
+							</li>
+
+							<li class="how-bor1 p-rl-5 p-tb-10">
+								<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+									Street Style (15)
+								</a>
+							</li>
+
+							<li class="how-bor1 p-rl-5 p-tb-10">
+								<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+									Life Style (28)
+								</a>
+							</li>
+
+							<li class="how-bor1 p-rl-5 p-tb-10">
+								<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+									DIY & Crafts (16)
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bg11">
+			<div class="container size-h-4 flex-c-c p-tb-15">
+				<span class="f1-s-1 cl0 txt-center">
+					Copyright © 2018 
+
+					<a href="#" class="f1-s-1 cl10 hov-link1"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				</span>
+			</div>
+		</div>
+	</footer>
